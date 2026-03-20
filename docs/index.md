@@ -1,8 +1,4 @@
-
----
-
-### `docs/index.md`
-```md
+ 
 # Popstiche Ops Documentation
 
 This site documents operational workflows and supporting system design notes for Popstiche.

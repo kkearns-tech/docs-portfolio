@@ -1,6 +1,4 @@
 
-**`docs/admin-guide.md`**
-```md
 # Admin Guide
 
 ## Who this is for

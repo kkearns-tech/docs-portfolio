@@ -1,6 +1,4 @@
-
-### `docs/system/data-model.md`
-```md
+ 
 # Data Model (v0 Draft)
 
 This model defines the minimum entities required to support workflows and reconciliation.
