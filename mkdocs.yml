@@ -41,6 +41,7 @@ nav:
           - Event Day: product/workflows/event-day.md
           - Prep Day: product/workflows/prep-day.md
           - Reconciliation: product/workflows/reconciliation.md
-  - System:
-      - Architecture: product/system/architecture.md
-      - Data Model: product/system/data-model.md
+      - System:
+          - Architecture: product/system/architecture.md
+          - Data Model: product/system/data-model.md
+          - Operational System Overview: product/system/operational-system-overview.md
