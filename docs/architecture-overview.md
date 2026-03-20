@@ -1,8 +1,17 @@
-# Architecture Overview: architecture-overview.md
+# Architecture Overview
 
-# System goals + non-goals
-# High-level diagram (Mermaid works great in GitHub)
-# Components (frontend, API, DB, queue, auth)
-# Data flow (request lifecycle)
-# Key design decisions (3 bullets)
-# Risks + mitigations (2–3 bullets)
+## Goals
+- Simple item CRUD API
+- Clear auth boundaries
+- Scalable read performance
+
+## High-level diagram
+
+```mermaid
+flowchart LR
+  U[Client] -->|HTTPS| GW[API Gateway]
+  GW --> API[App Service]
+  API --> DB[(Postgres)]
+  API --> Q[Queue]
+  Q --> W[Worker]
+  W --> DB

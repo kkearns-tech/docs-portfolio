@@ -1,12 +1,13 @@
-# API Doc: api-quickstart.md
+# API Quickstart
 
-# Overview: what the API does
-# Base URL + auth (token)
-# Quickstart: 3-step “make your first request”
-# Endpoints (2–3 only)
-# GET /items
-# POST /items
-# GET /items/{id}
-# Errors table (status code, meaning)
-# Rate limits (optional)
-# Changelog note (optional)
+## Overview
+The Example API lets you create and retrieve “Items” for a lightweight inventory system.
+
+## Base URL
+`https://api.example.com/v1`
+
+## Authentication
+Send a token in the header:
+
+```bash
+curl -H "Authorization: Bearer $TOKEN" https://api.example.com/v1/items

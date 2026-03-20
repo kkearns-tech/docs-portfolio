@@ -1,0 +1,34 @@
+site_name: Docs Portfolio
+site_description: Mini docs-as-code portfolio site (MkDocs + GitHub Actions)
+site_url: https://YOUR_GITHUB_USERNAME.github.io/docs-portfolio/
+
+repo_url: https://github.com/YOUR_GITHUB_USERNAME/docs-portfolio
+repo_name: YOUR_GITHUB_USERNAME/docs-portfolio
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Samples:
+      - API Quickstart: api-quickstart.md
+      - Admin Guide: admin-guide.md
+      - Architecture Overview: architecture-overview.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.details
+
+plugins:
+  - search
