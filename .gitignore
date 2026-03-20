@@ -1,18 +1,14 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Build output
+site/
 
-# Other files and folders
-.settings/
+# Python environment (if using one)
+.venv/
+venv/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# OS junk
+.DS_Store
+Thumbs.db
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# IDE stuff
+.vscode/
+.idea/
