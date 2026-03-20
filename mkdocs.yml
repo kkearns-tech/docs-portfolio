@@ -1,9 +1,9 @@
-site_name: Docs Portfolio
-site_description: Mini docs-as-code portfolio site (MkDocs + GitHub Actions)
-site_url: https://YOUR_GITHUB_USERNAME.github.io/docs-portfolio/
+site_name: Popstiche Ops Documentation
+site_description: Operations documentation and system design notes for Popstiche
+site_url: https://YOUR_GITHUB_USERNAME.github.io/popstiche-ops-docs/
 
-repo_url: https://github.com/YOUR_GITHUB_USERNAME/docs-portfolio
-repo_name: YOUR_GITHUB_USERNAME/docs-portfolio
+repo_url: https://github.com/YOUR_GITHUB_USERNAME/popstiche-ops-docs
+repo_name: YOUR_GITHUB_USERNAME/popstiche-ops-docs
 
 theme:
   name: material
@@ -14,21 +14,33 @@ theme:
     - search.suggest
     - content.code.copy
 
-nav:
-  - Home: index.md
-  - Samples:
-      - API Quickstart: api-quickstart.md
-      - Admin Guide: admin-guide.md
-      - Architecture Overview: architecture-overview.md
+plugins:
+  - search
 
 markdown_extensions:
   - admonition
   - toc:
       permalink: true
+  - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight
   - pymdownx.inlinehilite
-  - pymdownx.details
 
-plugins:
-  - search
+nav:
+  - Home: index.md
+  - Project:
+      - Roadmap: project/roadmap.md
+      - Decisions: project/decisions.md
+      - Changelog: project/changelog.md
+      - Glossary: project/glossary.md
+      - Status Reports: project/status-reports/template.md
+  - Product:
+      - Overview: product/overview.md
+      - Personas & Roles: product/personas-and-roles.md
+      - Workflows:
+          - Event Day: product/workflows/event-day.md
+          - Prep Day: product/workflows/prep-day.md
+          - Reconciliation: product/workflows/reconciliation.md
+  - System:
+      - Architecture: system/architecture.md
+      - Data Model: system/data-model.md

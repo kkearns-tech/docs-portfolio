@@ -1,17 +1,20 @@
-# Docs Portfolio
 
-This mini site demonstrates modern docs-as-code workflows:
+---
 
-- Markdown source
-- MkDocs (Material theme)
-- CI/CD deploy to GitHub Pages via GitHub Actions
+### `docs/index.md`
+```md
+# Popstiche Ops Documentation
 
-## Samples
-- [API Quickstart](api-quickstart.md) — reference + examples
-- [Admin Guide](admin-guide.md) — task-based docs + troubleshooting
-- [Architecture Overview](architecture-overview.md) — diagrams + decisions
+This site documents operational workflows and supporting system design notes for Popstiche.
 
-## What this proves
-- I can structure docs for different audiences (developers, admins, stakeholders).
-- I can maintain docs in Git workflows (PRs, reviews, CI).
-- I can publish documentation automatically and reliably.
+## Scope (v0)
+- Day-of-event execution workflows
+- Prep and replenishment workflows
+- End-of-day reconciliation
+- Roles and permissions
+- Baseline data model and architecture notes
+
+## How to use this site
+- Use **Product → Workflows** as the operational playbook.
+- Use **System** pages to capture data model and architecture decisions.
+- Use **Project** pages for change tracking, decisions, and status reporting cadence.

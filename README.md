@@ -1,8 +1,14 @@
-# Docs Portfolio (MkDocs + GitHub Actions)
+# Popstiche Ops Documentation
 
-Mini docs-as-code site that demonstrates:
-- Markdown source docs
-- MkDocs (Material theme)
-- CI/CD publishing to GitHub Pages with GitHub Actions
+This repository contains documentation for Popstiche operational workflows and system design notes, published via MkDocs and GitHub Pages.
 
-Live site: https://YOUR_GITHUB_USERNAME.github.io/docs-portfolio/
+## What this demonstrates
+- Docs-as-code workflow (Markdown + Git)
+- Structured documentation for operations, roles, and workflows
+- System thinking (data model + architecture)
+- Automated publishing (GitHub Actions → GitHub Pages)
+
+## Local preview
+```bash
+pip install mkdocs-material
+mkdocs serve

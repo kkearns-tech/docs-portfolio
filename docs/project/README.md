@@ -277,3 +277,93 @@ Think of it like this:
 |🛠 Operational System	|Notion (for now)	|Actually run Popstiche|
 |📚 Docs-as-Code Site	|MkDocs + GitHub	|Demonstrate architecture + modern skills|
 
+# Agile 
+
+- Weekly sprints
+- Each week:
+  * Update docs/project/status-reports/YYYY-MM-DD.md
+  * Add 1–2 “Decisions” entries
+  * Ship one doc improvement or new page
+  * Tag a release (v0.1, v0.2, etc.)
+  
+## Milestones you can actually execute
+
+### Milestone 0: Skeleton + publishing (1 session)
+
+Outcome: Site is live on GitHub Pages.
+
+Commits:
+- chore: init mkdocs site
+- ci: deploy docs to github pages
+- docs: add homepage + nav
+
+Deliverables:
+- MkDocs + Material
+- GitHub Actions deploy
+- Home page with “What this is”
+
+### Milestone 1: Product definition (1–2 sessions)
+
+Outcome: Clear scope and roles.
+
+Docs:
+- product/overview.md
+- product/personas-and-roles.md
+- project/glossary.md
+
+Commits:
+- docs: define product v1 scope
+- docs: add roles and permissions
+- docs: add glossary
+
+### Milestone 2: Workflows first 
+
+Outcome: Your real operating playbook.
+
+Docs:
+- product/workflows/event-day.md
+- product/workflows/prep-day.md
+- product/workflows/reconciliation.md
+
+Commits:
+- docs: document event-day workflow
+- docs: document prep-day workflow
+- docs: document end-of-day reconciliation
+
+### Milestone 3: Data model
+
+Outcome: You’ve defined your entities and how they relate.
+
+Docs:
+- system/data-model.md (tables + fields + relationships)
+- Include a Mermaid ER-ish diagram or relationship diagram
+
+Commit:
+- docs: add data model for v1
+
+### Milestone 4: Architecture overview
+
+Outcome: A clear system diagram and key decisions.
+
+Docs:
+- system/architecture.md
+- project/decisions.md (ADRs-lite)
+
+Commits:
+- docs: add architecture overview
+- docs: record key decisions
+
+### Milestone 5: API as “future interface” (portfolio gold)
+
+Outcome: Your system documented like an API product.
+
+Docs:
+- system/api/overview.md
+- system/api/endpoints.md
+- system/api/errors.md
+
+Commits:
+- docs: add api overview and conventions
+- docs: document core endpoints
+- docs: add error model and examples
+
