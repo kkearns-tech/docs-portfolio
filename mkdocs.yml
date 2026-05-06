@@ -35,7 +35,8 @@ nav:
     - Risks: project/risks.md
     - Decisions: project/decisions.md
     - Changelog: project/changelog.md
-    - Status Reports: project/status-reports/template.md
+    - Status Report (current): project/status-reports/2026-05-06.md
+    - Status Reports (old): project/status-reports/2026-03-20.md
   - Product:
     - Overview: product/overview.md
     - Personas & Roles: product/personas-and-roles.md
@@ -48,6 +49,6 @@ nav:
       - Data Model: product/system/data-model.md
       - Operational System Overview: product/system/operational-system-overview.md
 #      - API: product/system/api
-#        - End Points: product/system/endpoints.md
-#        - Errors: product/system/errors.md
-#        - Overview: product/system/overview.md
+      - End Points: product/system/api/endpoints.md
+      - Errors: product/system/api/errors.md
+      - Overview: product/system/api/overview.md
