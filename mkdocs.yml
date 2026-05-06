@@ -35,6 +35,7 @@ nav:
     - Risks: project/risks.md
     - Decisions: project/decisions.md
     - Changelog: project/changelog.md
+  - Status Reports:
     - Status Report (current): project/status-reports/2026-05-06.md
     - Status Reports (old): project/status-reports/2026-03-20.md
   - Product:
