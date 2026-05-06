@@ -136,6 +136,8 @@ This layer exists to:
 
 ## Data Flow (Conceptual)
 
+![Image of the workflow](mermaid-diagram.png) 
+
 ```mermaid
 flowchart LR
   Staff[Event Staff] --> Notion[Notion - System of Record]

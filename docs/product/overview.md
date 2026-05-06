@@ -13,3 +13,4 @@ Popstiche Ops is a lightweight operational documentation set and system blueprin
 - Replacing point-of-sale systems
 - Advanced forecasting
 - Multi-location warehousing complexity
+
