@@ -136,7 +136,7 @@ This layer exists to:
 
 ## Data Flow (Conceptual)
 
-![Image of the workflow](mermaid-diagram.png) 
+![Image of the workflow](images/mermaid-diagram.png) 
 
 ```mermaid
 flowchart LR
