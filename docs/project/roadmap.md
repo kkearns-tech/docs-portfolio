@@ -5,14 +5,18 @@
 - Document core workflows (event day, prep day, reconciliation)
 - Establish decision log and weekly status report cadence
 
-## v0.1
-- Define data model (entities + required fields)
-- Add inventory adjustment rules and glossary expansions
+## v0.1 (Initial Release)
+Focus: Establish foundation
+- Core workflows documented
+- Data model defined
+- Site deployed
 
-## v0.2
-- Define reporting outputs (daily summary, inventory depletion, restock signals)
-- Add troubleshooting and exception handling for workflows
+## v0.2 (Refinement)
+Focus: Improve usability and clarity
+- Reporting outputs defined
+- Workflow edge cases documented
 
-## v1.0
-- Ops-ready documentation set for repeatable event operations
-- Stable terminology, workflow checklists, and reporting definitions
+## v1.0 (Operationally Mature)
+Focus: Stable and repeatable system
+- Complete documentation set
+- Aligned Notion implementation

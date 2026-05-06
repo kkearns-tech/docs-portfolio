@@ -11,6 +11,27 @@ Use this log to record decisions that affect workflows, terminology, or system d
 - **Consequences / follow-up:**
 
 ---
+## 2026-05-06 — Adopt hybrid iterative + milestone delivery model
+
+- **Decision:** Use an iterative (Agile-style) workflow for execution, with defined milestones (v0.1, v0.2, v1.0) to group and communicate feature delivery.
+
+- **Context:** The project is being developed by a single contributor with evolving requirements based on real-world usage (event operations). A fully predefined plan would be too rigid, but completely unstructured iteration would make progress harder to communicate and evaluate.
+
+- **Options considered:**
+  - Pure Agile (no predefined milestones, fully emergent scope)
+  - Waterfall (define all requirements and deliver in sequence)
+  - Hybrid model (iterative work within milestone targets)
+
+- **Why this option:**
+  - Supports incremental progress and adaptation based on actual use
+  - Provides clear checkpoints for reviewing progress and communicating status
+  - Balances flexibility (iteration) with structure (milestones)
+  - Aligns well with a docs-as-code workflow and visible versioning (tags/releases)
+
+- **Consequences / follow-up:**
+  - Milestones must remain flexible and may be re-scoped based on learnings
+  - Status reports should reference both current work (issues) and milestone progress
+  - GitHub Issues will represent execution-level work; roadmap will reflect milestone-level goals
 
 ## 2026-03-03 — Establish docs-as-code as source of truth
 - **Decision:** Maintain operational and system documentation in a Git repository, published via MkDocs.

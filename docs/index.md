@@ -13,5 +13,11 @@ This site documents the design and operation of a lightweight system for running
 - **Product** — operational workflows and roles
 - **System** — data model and architecture
 
+Issues = work
+Status reports = cadence
+Roadmap = direction
+Releases = milestones
+Docs = system understanding
+
 ## Status
 Active — v0.1 in progress
