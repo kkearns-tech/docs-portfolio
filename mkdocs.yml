@@ -29,19 +29,21 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Project:
-      - Roadmap: project/roadmap.md
-      - Decisions: project/decisions.md
-      - Changelog: project/changelog.md
-      - Glossary: project/glossary.md
-      - Status Reports: project/status-reports/template.md
+    - Charter: project/charter.md
+    - Roadmap: project/roadmap.md
+    - Backlog: project/backlog.md
+    - Risks: project/risks.md
+    - Decisions: project/decisions.md
+    - Changelog: project/changelog.md
+    - Status Reports: project/status-reports/template.md
   - Product:
-      - Overview: product/overview.md
-      - Personas & Roles: product/personas-and-roles.md
-      - Workflows:
-          - Event Day: product/workflows/event-day.md
-          - Prep Day: product/workflows/prep-day.md
-          - Reconciliation: product/workflows/reconciliation.md
-      - System:
-          - Architecture: product/system/architecture.md
-          - Data Model: product/system/data-model.md
-          - Operational System Overview: product/system/operational-system-overview.md
+    - Overview: product/overview.md
+    - Personas & Roles: product/personas-and-roles.md
+    - Workflows:
+      - Event Day: product/workflows/event-day.md
+      - Prep Day: product/workflows/prep-day.md
+      - Reconciliation: product/workflows/reconciliation.md
+    - System:
+      - Architecture: product/system/architecture.md
+      - Data Model: product/system/data-model.md
+      - Operational System Overview: product/system/operational-system-overview.md
