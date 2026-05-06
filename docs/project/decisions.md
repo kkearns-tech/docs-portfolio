@@ -11,6 +11,17 @@ Use this log to record decisions that affect workflows, terminology, or system d
 - **Consequences / follow-up:**
 
 ---
+## 2026-05-06 — Track sales closeout at the batch level
+
+- **Decision:** Track units sold, remaining, and waste directly on each Batch record for v0.
+- **Context:** Flavor is an attribute of production, not a separate sales entry. Capturing sales by batch avoids duplicate flavor entry and keeps event-day logging simple.
+- **Options considered:**
+  - Separate sales summary by event/flavor
+  - Separate batch closeout database
+  - Closeout fields directly on Batch records
+- **Why this option:** Batch-level closeout is the simplest model that supports reconciliation without adding unnecessary databases or duplicate fields.
+- **Consequences / follow-up:** Revenue estimates are derived from batch closeout data. Event-level payment totals remain on the Event record for actual reconciliation.
+
 ## 2026-05-06 — Adopt hybrid iterative + milestone delivery model
 
 - **Decision:** Use an iterative (Agile-style) workflow for execution, with defined milestones (v0.1, v0.2, v1.0) to group and communicate feature delivery.
