@@ -2,6 +2,14 @@
 
 ## Week of YYYY-MM-DD
 
+**Sprint / Phase:** v0.1  
+**Related Issues:** #1, #2  
+
+## Overall Status
+🟢 On track
+🟡 At risk
+🔴 Blocked
+
 ### Objectives
 - [ ] Objective 1
 - [ ] Objective 2

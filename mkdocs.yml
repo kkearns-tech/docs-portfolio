@@ -36,8 +36,9 @@ nav:
     - Decisions: project/decisions.md
     - Changelog: project/changelog.md
   - Status Reports:
-    - Status Report (current): project/status-reports/2026-05-06.md
-    - Status Reports (old): project/status-reports/2026-03-20.md
+    - Overview: project/status-reports/index.md
+    - 2026-05-06: project/status-reports/2026-05-06.md
+    - 2026-03-20: project/status-reports/2026-03-20.md
   - Product:
     - Overview: product/overview.md
     - Personas & Roles: product/personas-and-roles.md
