@@ -1,6 +1,4 @@
-# Status Report Template
-
-## Week of YYYY-MM-DD
+# Status Report Week of YYYY-MM-DD
 
 **Sprint / Phase:** v0.1  
 **Related Issues:** #1, #2  
@@ -24,6 +22,7 @@
 - Item
 
 ### Decisions made
+[decisions.md](decisions.md)
 - Decision summary (link to Decisions page entry)
 
 ### Next up
