@@ -22,7 +22,7 @@
 - Item
 
 ### Decisions made
-[decisions.md](decisions.md)
+[decisions.md](../decisions.md)
 - Decision summary (link to Decisions page entry)
 
 ### Next up
