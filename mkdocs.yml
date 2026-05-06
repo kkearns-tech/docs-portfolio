@@ -1,9 +1,9 @@
 site_name: Popstiche Ops Documentation
 site_description: Operations documentation and system design notes for Popstiche
-site_url: https://YOUR_GITHUB_USERNAME.github.io/popstiche-ops-docs/
+site_url: https://kkearns-tech.github.io/popstiche-ops-docs/
 
-repo_url: https://github.com/YOUR_GITHUB_USERNAME/popstiche-ops-docs
-repo_name: YOUR_GITHUB_USERNAME/popstiche-ops-docs
+repo_url: https://github.com/kkearns-tech/popstiche-ops-docs
+repo_name: kkearns-tech/popstiche-ops-docs
 
 theme:
   name: material
@@ -47,3 +47,7 @@ nav:
       - Architecture: product/system/architecture.md
       - Data Model: product/system/data-model.md
       - Operational System Overview: product/system/operational-system-overview.md
+#      - API: product/system/api
+#        - End Points: product/system/endpoints.md
+#        - Errors: product/system/errors.md
+#        - Overview: product/system/overview.md
