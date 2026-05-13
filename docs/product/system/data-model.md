@@ -80,6 +80,7 @@ A Batch represents one production run. Flavor is captured here because flavor is
 | Property | Type | Required | Notes |
 |---|---|---:|---|
 | Name | Title | Yes | Example: Classic Batch 1 |
+| ID Formula | Formula | Yes | Example: caramel-20260513-163000 |
 | Event | Relation → Event | Yes | Event where batch was produced |
 | Flavor | Relation → Flavor | Yes | Flavor produced |
 | Time Produced | Date/Time | No | Useful during live events |
