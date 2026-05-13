@@ -3,7 +3,6 @@
 Use this log to record decisions that affect workflows, terminology, or system design.
 
 ## Template
-- **Date:**
 - **Decision:**
 - **Context:**
 - **Options considered:**
@@ -11,6 +10,13 @@ Use this log to record decisions that affect workflows, terminology, or system d
 - **Consequences / follow-up:**
 
 ---
+## 2026-05-13 - add a generated ID property to Batch
+- **Decision:** add a generated ID property to batch that is a formula to create an id for tha batch based on the name, date, and time it was produced:
+- **Context:** Need a way to refer to a batch that is unique
+- **Options considered:** hand-creating a name, unique id, and this metadata aware id
+- **Why this option:** unique AND human readable to make sure mistakes don't happen
+- **Consequences / follow-up:** easier way to refer to batches with reduced human error
+
 ## 2026-05-06 — Track sales closeout at the batch level
 
 - **Decision:** Track units sold, remaining, and waste directly on each Batch record for v0.
